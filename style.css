@@ -1,0 +1,377 @@
+body {
+    background-color: #E4FBFF;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.title-pos{
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+}
+
+.title-1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11vw;
+    line-height: 12vw;
+    /* or 119% */
+    text-align: center;
+    color: #7868E6;
+    z-index: 1;
+}
+
+.burger {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #7868E6;
+}
+
+.line1 {
+    position: relative;
+    left: 25%;
+    top: 16px;
+
+    height: 4px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.line2 {
+    position: relative;
+    left: 25%;
+    top: 19px;
+
+    height: 4px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.line3 {
+    position: relative;
+    left: 25%;
+    top: 22px;
+
+    height: 4px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#blob-1 {
+    position: absolute;
+    width: 110vw;
+    left: -6vw;
+    top: 30vh;
+}
+
+#blob-2 {
+    position: absolute;
+    left: -10vw;
+    top: 50vh;
+    width: 140vw;
+    z-index: -1;
+}
+
+#astronauta {
+    position: absolute;
+    width: 38vw;
+    left: 15vw;
+    top: 36vh;
+}
+
+#luna {
+    position: absolute;
+    width: 159px;
+    height: 138.14px;
+    left: 155px;
+    top: 416px;
+}
+
+#saturno {
+    position: absolute;
+    width: 64.7px;
+    height: 56.81px;
+    left: 262px;
+    top: 310.04px;
+}
+
+#saturno-1 {
+    position: absolute;
+    width: 82px;
+    left: 100px;
+    top: 662px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#tierra {
+    position: absolute;
+    width: 37.97px;
+    height: 35.7px;
+    left: 45.91px;
+    top: 438.81px;
+}
+
+#tierra-1 {
+    position: absolute;
+    width: 29.35px;
+    height: 27.41px;
+    left: 295px;
+    top: 640px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#blob-3{
+    position: absolute;
+    width: 150%;
+    top: 640px;
+    left: -75px;
+}
+
+#sparks {
+    position: absolute;
+    width: 35px;
+    left: 325px;
+    top: 655px;
+}
+
+#sparks-1 {
+    position: absolute;
+    width: 24px;
+    height: 28px;
+    left: 18px;
+    top: 725px;
+}
+
+#blob-4 {
+    position: absolute;
+    top: 1970px;
+    width: 120%;
+    left: -25px;
+    transform: matrix(-1, -0.3, 0.3, -1, 0, 0);
+    z-index: -1;
+}
+
+#tierra-2 {
+    position: absolute;
+    width: 45px;
+    left: 255px;
+    top: 2165px;
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#sparks-3 {
+    position: absolute;
+    width: 48px;
+    left: 303px;
+    top: 2147px;
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#sparks-4 {
+    position: absolute;
+    width: 37px;
+    left: 10px;
+    top: 2225px;
+
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.contact-circle{
+    position: relative;
+    left: 32.5vw;
+    height: 5vw;
+    width: 5vw;
+    border: 1px solid #000000;
+    background: #B8B5FF;
+    border-radius: 4vh;
+}
+
+.contact-btn {
+    position: absolute;
+    width: 40vw;
+    height: 7vh;
+    left: 30vw;
+    top: 90vh;
+    background: #7868E6;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7vh; 
+    display: flex; 
+    align-items: center; 
+}
+
+.contact-text {
+    margin: 0;
+    color:white;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.main-content{
+    position: absolute;
+    top: 760px;
+    z-index: 1;
+
+    margin: 10px;
+    color: white;
+}
+
+.text {
+    margin: 0;
+    width: 95vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.title-2{
+    margin: 30px 0px 5px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.title-3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.swiper-container {
+    width: 100vw;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.slider-image{
+    height: 50px;
+}
+
+.proyectos {
+    width: 90vw;
+    padding-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.contact-form {
+    position: absolute;
+    top: 1600px;
+    left: 40px;
+}
+
+.form{
+    display: grid;
+}
+
+form input {
+    margin: 5px;
+    width: 65vw;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: #7868E6;
+    background-color: #E4FBFF;
+}
+
+form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #7868E6;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.submit {
+    border-style: groove;
+    border-radius: 25px;
+    color: #7868E6;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    width: 22vw;
+    margin-left: auto;
+    padding-left: 15px;
+    text-align: start;
+}
+
+.submit-circle {
+    height: 8px;
+    width: 8px;
+
+    top: -21px;
+    left: 227px;
+    position: relative;
+
+    border: 1px solid #7868E6;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.github-btn {
+    display: flex;
+    width: 25vw;
+    background: black;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github-btn img{
+    height: 8vw;
+    margin: 2px;
+}
+
+.github-text{
+    margin: 0;
+    padding: 0 0 0 5px;
+    align-self: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
