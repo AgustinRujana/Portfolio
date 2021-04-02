@@ -69,6 +69,7 @@ body {
 #blob-1 {
     position: absolute;
     width: 110vw;
+    height: 50vh;
     left: -6vw;
     top: 30vh;
 }
@@ -77,7 +78,8 @@ body {
     position: absolute;
     left: -10vw;
     top: 50vh;
-    width: 140vw;
+    width: 160vw;
+    height: 80vh;
     z-index: -1;
 }
 
@@ -90,99 +92,95 @@ body {
 
 #luna {
     position: absolute;
-    width: 159px;
-    height: 138.14px;
-    left: 155px;
-    top: 416px;
+    width: 48vw;
+    left: 40vw;
+    top: 56vh;
 }
 
 #saturno {
     position: absolute;
-    width: 64.7px;
-    height: 56.81px;
-    left: 262px;
-    top: 310.04px;
+    width: 18vw;
+    left: 72vw;
+    top: 41vh;
 }
 
 #saturno-1 {
     position: absolute;
-    width: 82px;
-    left: 100px;
-    top: 662px;
+    width: 20vw;
+    left: 25vw;
+    top: 105vh;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 #tierra {
     position: absolute;
-    width: 37.97px;
-    height: 35.7px;
-    left: 45.91px;
-    top: 438.81px;
+    width: 10vw;
+    left: 15vw;
+    top: 62vh;
 }
 
 #tierra-1 {
     position: absolute;
-    width: 29.35px;
-    height: 27.41px;
-    left: 295px;
-    top: 640px;
+    width: 8vw;
+    left: 72vw;
+    top: 101vh;
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 #blob-3{
     position: absolute;
-    width: 150%;
-    top: 640px;
-    left: -75px;
+    width: 150vw;
+    height: 253vh;
+    top: 100vh;
+    left:  -20vw;
 }
 
 #sparks {
     position: absolute;
-    width: 35px;
-    left: 325px;
-    top: 655px;
+    width: 10vw;
+    left: 88vw;
+    top: 105vh;
 }
 
 #sparks-1 {
     position: absolute;
-    width: 24px;
-    height: 28px;
-    left: 18px;
-    top: 725px;
+    width: 6vw;
+    left: 5vw;
+    top: 115vh;
 }
 
 #blob-4 {
     position: absolute;
-    top: 1970px;
-    width: 120%;
-    left: -25px;
+    top: 309vh;
+    width: 120vw;
+    left: -6vw;
     transform: matrix(-1, -0.3, 0.3, -1, 0, 0);
     z-index: -1;
 }
 
 #tierra-2 {
     position: absolute;
-    width: 45px;
-    left: 255px;
-    top: 2165px;
+    width: 13vw;
+    left: 71vw;
+    top: 338vh;
 
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 #sparks-3 {
     position: absolute;
-    width: 48px;
-    left: 303px;
-    top: 2147px;
+    width: 13vw;
+    left: 85vw;
+    top: 335vh;
 
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 #sparks-4 {
     position: absolute;
-    width: 37px;
-    left: 10px;
-    top: 2225px;
+    width: 10vw;
+    left: 3vw;
+    top: 342vh;
 
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -200,7 +198,7 @@ body {
 .contact-btn {
     position: absolute;
     width: 40vw;
-    height: 7vh;
+    height: 12vw;
     left: 30vw;
     top: 90vh;
     background: #7868E6;
@@ -222,10 +220,10 @@ body {
 
 .main-content{
     position: absolute;
-    top: 760px;
+    top: 120vh;
     z-index: 1;
 
-    margin: 10px;
+    margin: 3vw;
     color: white;
 }
 
@@ -235,22 +233,23 @@ body {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 4vw;
+    line-height: 5vw;
 }
 
 .title-2{
-    margin: 30px 0px 5px 0px;
+    margin: 8vw 0 1vw 0;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 9vw;
 }
 
 .title-3{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 4vw;
 }
 
 .swiper-container {
@@ -261,7 +260,6 @@ body {
 .swiper-slide {
     width: 80%;
     text-align: center;
-    font-size: 18px;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -278,12 +276,12 @@ body {
 }
 
 .slider-image{
-    height: 50px;
+    height: 8vh;
 }
 
 .proyectos {
     width: 90vw;
-    padding-top: 10px;
+    padding-top: 3vw;
 }
 
 .center {
@@ -292,8 +290,8 @@ body {
 
 .contact-form {
     position: absolute;
-    top: 1600px;
-    left: 40px;
+    top: 250vh;
+    left: 11vw;
 }
 
 .form{
@@ -301,7 +299,8 @@ body {
 }
 
 form input {
-    margin: 5px;
+    margin: 2vw;
+    padding: 2vw;
     width: 65vw;
     border-top-style: hidden;
     border-right-style: hidden;
@@ -320,58 +319,52 @@ form input:focus {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 4vw;
 }
 
 .submit {
     border-style: groove;
-    border-radius: 25px;
+    border-radius: 7vw;
     color: #7868E6;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 4vw;
     width: 22vw;
     margin-left: auto;
-    padding-left: 15px;
-    text-align: start;
+    text-align: center;
 }
 
-.submit-circle {
-    height: 8px;
-    width: 8px;
-
-    top: -21px;
-    left: 227px;
-    position: relative;
-
-    border: 1px solid #7868E6;
-    background: transparent;
-    border-radius: 10px;
-}
 
 .github-btn {
     display: flex;
     width: 25vw;
     background: black;
-    border-radius: 25px;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    border-radius: 7vw;
+    margin-top: 10vw;
+    margin-bottom: 3vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 .github-btn img{
     height: 8vw;
-    margin: 2px;
+    margin: 1vw;
 }
 
 .github-text{
     margin: 0;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 1vw;
     align-self: center;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+@media only screen and (min-width: 425px) {
+    #blob-4 {
+        height: 60vh;
+        left: -15vw;
+    }
 }
