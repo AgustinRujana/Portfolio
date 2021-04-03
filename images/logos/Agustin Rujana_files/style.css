@@ -70,7 +70,8 @@ html {
     height: 50vh;
     left: -6vw;
     top: 30vh;
-    fill: transparent;
+    opacity: 0;
+    animation: showUp 1.5s ease forwards 3.5s;
 }
 
 #blob-2 {
@@ -80,7 +81,8 @@ html {
     width: 160vw;
     height: 80vh;
     z-index: -1;
-    fill: transparent;
+    opacity: 0;
+    animation: showUp 1s ease forwards 5.2s;
 }
 
 #astronauta {
@@ -385,7 +387,7 @@ form input:focus {
     background: black;
     border-radius: 7vw;
     margin-top: 10vw;
-    margin-bottom: 10vw;
+    margin-bottom: 3vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -404,20 +406,6 @@ form input:focus {
     font-weight: 400;
     font-size: 3vw;
     color: white;
-}
-
-.volver-btn{
-    position: absolute;
-    top: 415vh;
-    left: 85vw;
-    height: 10vw;
-    width: 10vw;
-    border-radius: 50%;
-    background-color: #7868E6;
-}
-
-.arrow {
-    width: 10vw;
 }
 
 @media only screen and (min-width: 425px) {

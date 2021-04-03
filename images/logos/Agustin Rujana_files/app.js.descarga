@@ -1,0 +1,15 @@
+const returnCss = (svgId) => {
+    const titlePath = document.querySelectorAll(`${svgId} path`)
+    let cssStyles = ""
+    for(let i=0; i<titlePath.length; i++) {
+        cssStyles = cssStyles.concat(
+         `#title path:nth-child(${i + 1}){
+            stroke-dasharray: ${Math.round(titlePath[i].getTotalLength() + 0.5)};
+            stroke-dashoffset: ${Math.round(titlePath[i].getTotalLength() + 0.5)};
+            animation: line-anim 2s ease forwards ${i/10}s;
+        }
+        `)
+    }
+    return cssStyles
+}
+
