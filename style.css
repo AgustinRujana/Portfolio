@@ -420,6 +420,42 @@ form input:focus {
     width: 10vw;
 }
 
+.title-mensaje{
+    font-family: Montserrat;
+    margin-top: 30vh;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11vw;
+    line-height: 12vw;
+    text-align: center;
+    color: #7868E6;
+}
+
+.volver-btn2 {
+    text-decoration: none;
+    width: 40vw;
+    height: 12vw;
+    background: #7868E6;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7vh; 
+    display: flex; 
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.volver-text {
+    margin: 0;
+    color:white;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: center;
+}
+
+
 @media only screen and (min-width: 425px) {
     #blob-4 {
         height: 60vh;
