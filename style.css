@@ -6,9 +6,14 @@
     --dark: black;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: var(--ter);
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
 }
 
@@ -244,13 +249,13 @@ html {
 
 .main-content{
     position: absolute;
+    width: 93vw;
     top: 120vh;
     z-index: 1;
-
-    margin: 3vw;
     color: var(--light);
     opacity: 0;
     animation: showUp 1s ease forwards 5.5s;
+    padding: 4%;
 }
 
 .text {
@@ -276,15 +281,17 @@ html {
     font-style: normal;
     font-weight: 500;
     font-size: 4vw;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
 }
 
 .swiper-container {
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 
 .swiper-slide {
-    width: 80%;
+    width: 90%;
     text-align: center;
     /* Center slide text vertically */
     display: -webkit-box;
@@ -306,7 +313,6 @@ html {
 }
 
 .proyectos {
-    width: 90vw;
     padding-top: 3vw;
 }
 
@@ -447,6 +453,32 @@ form input:focus,  textarea:focus {
     font-size: 5vw;
     text-align: center;
 }
+
+.proyects {
+    width: 100%;
+}
+
+.proyectContainer{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.proyectContainer img{
+   height: 100px;
+   padding: 20px;
+}
+
+.proyectContainer-1{
+    background-color: #21759b;    
+}
+
+.proyectContainer-2{
+    background-color: #f2c811;    
+}
+
 
 
 @media only screen and (min-width: 425px) {
@@ -628,6 +660,7 @@ form input:focus,  textarea:focus {
     }
     
     .main-content {
+        width: unset;
         top: 120vh;
         z-index: 1;
         margin: 2vw;
@@ -665,34 +698,6 @@ form input:focus,  textarea:focus {
     .about{
         display: grid;
     }
-
-    .proyects {
-        width: 45vw;
-    }
-
-    .proyectContainer{
-        margin-top: 10px;
-        
-        width: 45vw;
-        border-radius: 15px;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .proyectContainer img{
-       height: 200px;
-       padding: 20px;
-    }
-    
-    .proyectContainer-1{
-        background-color: #21759b;    
-    }
-
-    .proyectContainer-2{
-        background-color: #f2c811;    
-    }
-
-    
 
     #tierra-2 {
         width: 10vw;
@@ -761,4 +766,19 @@ form input:focus,  textarea:focus {
     .github-btn img {
         height: 2vw;
     }   
+
+    .proyects {
+        width: 45vw;
+    }
+    
+    .proyectContainer{
+        margin-top: 10px;
+        width: 45vw;
+        border-radius: 15px;
+    }
+    
+    .proyectContainer img{
+       height: 200px;
+       padding: 20px;
+    }
 }
