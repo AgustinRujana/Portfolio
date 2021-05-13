@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --main: #7868E6;
     --sec: #B8B5FF;
     --ter: #E4FBFF;
     --light: white;
     --dark: black;
+    --font: 'Montserrat', sans-serif;
 }
 
 * {
@@ -22,7 +25,7 @@ html {
 }
 
 .title-1 {
-    font-family: Montserrat;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 600;
     font-size: 11vw;
@@ -241,7 +244,7 @@ html {
 .contact-text {
     margin: 0;
     color:var(--light);
-    font-family: Montserrat;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 5vw;
     text-align: center;
@@ -261,7 +264,7 @@ html {
 .text {
     margin: 0;
     width: 95vw;
-    font-family: Montserrat;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 300;
     font-size: 4vw;
@@ -270,14 +273,14 @@ html {
 
 .title-2{
     margin: 8vw 0 1vw 0;
-    font-family: Montserrat;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 9vw;
 }
 
 .title-3{
-    font-family: Montserrat;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 4vw;
@@ -336,7 +339,7 @@ html {
 }
 
 form input, textarea {
-    font-family: Montserrat;
+    font-family: var(--font);
     margin: 5px 0 0 0;
     padding: 2vw;
     border-top-style: hidden;
@@ -353,7 +356,7 @@ form input:focus,  textarea:focus {
 
 ::placeholder {
     color: var(--main);
-    font-family: Montserrat;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 600;
     font-size: 4vw;
@@ -363,7 +366,7 @@ form input:focus,  textarea:focus {
     border-style: groove;
     border-radius: 7vw;
     color: var(--main);
-    font-family: Montserrat;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 4vw;
@@ -395,7 +398,7 @@ form input:focus,  textarea:focus {
     margin: 0;
     padding: 0 0 0 1vw;
     align-self: center;
-    font-family: Montserrat;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 3vw;
@@ -420,7 +423,7 @@ form input:focus,  textarea:focus {
 }
 
 .title-mensaje{
-    font-family: Montserrat;
+    font-family: var(--font);
     margin-top: 30vh;
     font-style: normal;
     font-weight: 600;
@@ -448,7 +451,7 @@ form input:focus,  textarea:focus {
 .volver-text {
     margin: 0;
     color:var(--light);
-    font-family: Montserrat;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 5vw;
     text-align: center;
@@ -500,7 +503,7 @@ form input:focus,  textarea:focus {
     }
 
     .title-1 {
-        font-family: Montserrat;
+        font-family: var(--font);
         font-style: normal;
         font-weight: 600;
         font-size: 11vw;
